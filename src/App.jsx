@@ -87,9 +87,9 @@ const App = () => {
               We provide innovative educational services to transform learning
               experiences.
             </p>
-            <button className="bg-slate-900 text-white px-5 py-2 rounded uppercase font-semibold">
+            {/* <button className="bg-slate-900 text-white px-5 py-2 rounded uppercase font-semibold">
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
@@ -169,7 +169,10 @@ const App = () => {
           just tell us a little more about your needs. We will get back to you
           as soon as possible with the answers you need!
         </p>
-        <a href="https://api.whatsapp.com/send/?phone=918123821588&text&type=phone_number&app_absent=0">
+        <a
+          href="https://api.whatsapp.com/send/?phone=918123821588&text=Can you please find the best college in Bengaluru for the course"
+          target="_blank"
+        >
           <button className="px-4 py-2 mt-5 bg-[#455a64] text-white text-xl rounded  mx-auto">
             <div className="flex items-center gap-2">
               <p>
@@ -224,7 +227,7 @@ const App = () => {
       </footer>
 
       <a
-        href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        href="https://api.whatsapp.com/send?phone=918123821588&text=Can you please find the best college in Bengaluru for the course"
         className="float"
         target="_blank"
       >
