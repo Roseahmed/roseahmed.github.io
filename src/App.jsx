@@ -15,6 +15,7 @@ import Accordion from "./components/Accordion";
 import { CustomCard } from "./components/CustomCard";
 import { coursesData, accordionItems } from "./data/data";
 import { MdMenu } from "react-icons/md";
+import logo from "./assets/logo-black.svg";
 
 const App = () => {
   const [menu, setMenu] = useState(false);
@@ -41,7 +42,8 @@ const App = () => {
     <div>
       <header className="top-0 z-50 bg-white flex items-center justify-between px-10 py-4 border-b relative">
         {/* TODO: Center this div (Mobile view) -> done */}
-        <div className="left md:block flex items-center justify-center w-full ">
+        <div className="left flex items-center justify-start ">
+          <img src={logo} alt="logo" className="w-10 " />
           <h1 className="text-2xl font-semibold head tracking-wide">
             EDUCONNECT
           </h1>
