@@ -47,7 +47,7 @@ export const coursesData = [
 
   // "BHMS",
   // "BNYS",
-  // " B - PHARMACY",
+  // "B - PHARMACY",
   // "PHARM - D",
   // "GNM Nursing",
   // "PBBSc Nursing"
