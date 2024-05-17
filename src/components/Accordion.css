@@ -1,0 +1,36 @@
+/* Styles for the accordion */
+.accordion {
+  border: 1px solid #ccc;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-title {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.arrow {
+  float: right;
+}
+
+.open .arrow {
+  transform: rotate(180deg);
+}
+
+/* Additional styles for better look and feel */
+p {
+  margin: 0;
+}
+
+.accordion-title:hover {
+  background-color: #e0e0e0;
+}

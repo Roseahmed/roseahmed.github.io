@@ -1,0 +1,39 @@
+.banner {
+  background-image: url("./assets/img/banner.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .courseList {
+    display: block; /* Display course cards as block elements */
+  }
+
+  .courseList > div {
+    width: 100%; /* Set width to 100% for each course card */
+    margin-bottom: 1rem; /* Add spacing between course cards */
+  }
+}
+
+.head {
+  font-family: "Courier New", Courier, monospace;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
